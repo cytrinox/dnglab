@@ -1,0 +1,18 @@
+make = "Canon"
+model = "Canon EOS 400D DIGITAL"
+clean_make = "Canon"
+clean_model = "EOS 400D"
+
+model_aliases = [
+  ["Canon EOS DIGITAL REBEL XTi", "Rebel XTi"],
+  ["Canon EOS REBEL XTi", "Rebel XTi"],
+  ["Canon EOS Kiss Digital X", "Kiss X"],
+  ["Canon EOS Kiss X", "Kiss X"],
+]
+
+blackpoint = 0
+whitepoint = 4058
+color_matrix = {D65 = [0.7054, -0.1501, -0.099, -0.8156, 1.5544, 0.2812, -0.1278, 0.1414, 0.7796]}
+color_pattern = "RGGB"
+crops = [18,0,2,42]
+blackareav = [0, 40]

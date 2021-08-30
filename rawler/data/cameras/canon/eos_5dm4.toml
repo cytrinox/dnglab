@@ -1,0 +1,11 @@
+make = "Canon"
+model = "Canon EOS 5D Mark IV"
+clean_make = "Canon"
+clean_model = "Canon EOS 5D Mark IV"
+blackpoint = 0
+whitepoint = 14008
+color_matrix = {D65 = [0.6446, -0.0366, -0.0864, -0.4436, 1.2204, 0.2513, -0.0952, 0.2496, 0.6348]}
+color_pattern = "RGGB"
+crops = [42,0,0,136]
+hints = ["double_line"]
+blackareav = [0,130]

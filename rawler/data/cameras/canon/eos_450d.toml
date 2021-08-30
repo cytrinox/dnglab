@@ -1,0 +1,17 @@
+make = "Canon"
+model = "Canon EOS 450D"
+clean_make = "Canon"
+clean_model = "EOS 450D"
+
+model_aliases = [
+  ["Canon EOS DIGITAL REBEL XSi", "Rebel XSi"],
+  ["Canon EOS REBEL XSi", "Rebel XSi"],
+  ["Canon EOS Kiss Digital X2", "Kiss X2"],
+  ["Canon EOS Kiss X2", "Kiss X2"],
+]
+
+blackpoint = 1020
+whitepoint = 14500
+color_matrix = {D65 = [0.5784, -0.0262, -0.0821, -0.7539, 1.5064, 0.2672, -0.1982, 0.2681, 0.7427]}
+color_pattern = "RGGB"
+crops = [18,0,2,22]

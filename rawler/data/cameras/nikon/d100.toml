@@ -1,0 +1,12 @@
+make = "NIKON CORPORATION"
+model = "NIKON D100"
+clean_make = "Nikon"
+clean_model = "D100"
+color_matrix = {D65 = [0.5902, -0.0933, -0.0782, -0.8983, 1.6719, 0.2354, -0.1402, 0.1455, 0.6464]}
+color_pattern = "GRBG"
+crops = [0,0,0,2]
+
+[[cameras.modes]]
+mode = "12bit"
+blackpoint = 0
+whitepoint = 4095

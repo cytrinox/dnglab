@@ -1,0 +1,9 @@
+make = "Hasselblad"
+model = "Hasselblad H4D-40"
+clean_make = "Hasselblad"
+clean_model = "H4D-40"
+blackpoint = 256
+whitepoint = 62914
+color_matrix = {D65 = [0.6159, -0.1402, -0.0177, -0.5439, 1.2762, 0.3007, -0.0955, 0.22, 0.7104]}
+color_pattern = "RGGB"
+crops = [4,40,80,42]

@@ -1,0 +1,16 @@
+make = "Panasonic"
+model = "DMC-FZ45"
+clean_make = "Panasonic"
+clean_model = "DMC-FZ45"
+blackpoint = 143
+whitepoint = 3986
+color_matrix = {D65 = [1.3639, -0.5535, -0.1371, -0.1698, 0.9633, 0.243, 0.0316, 0.1152, 0.4108]}
+color_pattern = "GBRG"
+
+[[cameras.modes]]
+mode = "4:3"
+crops = [0,58,10,0]
+
+[[cameras.modes]]
+mode = "3:2"
+crops = [0,62,0,0]

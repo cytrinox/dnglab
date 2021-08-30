@@ -1,0 +1,11 @@
+make = "Canon"
+model = "Canon PowerShot G2"
+clean_make = "Canon"
+clean_model = "PowerShot G2"
+blackpoint = 0
+whitepoint = 1023
+color_matrix = {D65 = [0.9087, -0.2693, -0.1049, -0.6715, 1.4382, 0.2537, -0.2291, 0.2819, 0.779]}
+color_pattern = "RGGB"
+crops = [6,52,2,12]
+hints = ["nolowbits"]
+blackareav = [2326,50]

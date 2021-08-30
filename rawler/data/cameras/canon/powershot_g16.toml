@@ -1,0 +1,11 @@
+make = "Canon"
+model = "Canon PowerShot G16"
+clean_make = "Canon"
+clean_model = "PowerShot G16"
+blackpoint = 128
+whitepoint = 4000
+color_matrix = {D65 = [0.802, -0.2687, -0.0682, -0.3704, 1.1879, 0.2052, -0.0965, 0.1921, 0.5556]}
+color_pattern = "RGGB"
+crops = [18,24,0,96]
+blackareav = [0, 80]
+wb_offset = 71

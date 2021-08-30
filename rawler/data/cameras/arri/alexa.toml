@@ -1,0 +1,10 @@
+make = "ARRI"
+model = "ALEXA"
+clean_make = "ARRI"
+clean_model = "ALEXA"
+blackpoint = 0
+whitepoint = 4095
+# we don't have a matrix so use sRGB
+color_matrix = {D65 = [3240.4542, -1537.1385, -498.5314, -969.266, 1876.0108, 41.556, 55.6434, -204.0259, 1057.2252]}
+color_pattern = "RGGB"
+crops = [0,0,0,0]

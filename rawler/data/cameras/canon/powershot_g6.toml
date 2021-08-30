@@ -1,0 +1,12 @@
+make = "Canon"
+model = "Canon PowerShot G6"
+clean_make = "Canon"
+clean_model = "PowerShot G6"
+blackpoint = 128
+whitepoint = 4095
+color_matrix = {D65 = [0.9877, -0.3775, -0.0871, -0.7613, 1.4807, 0.3072, -0.1448, 0.1305, 0.7485]}
+color_pattern = "RGGB"
+crops = [12,4,4,44]
+wb_offset = 48
+hints = ["wb_mangle"]
+blackareav = [0,40]

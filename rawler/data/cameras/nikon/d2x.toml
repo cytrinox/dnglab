@@ -1,0 +1,12 @@
+make = "NIKON CORPORATION"
+model = "NIKON D2X"
+clean_make = "Nikon"
+clean_model = "D2X"
+color_matrix = {D65 = [1.0231, -0.2769, -0.1255, -0.8301, 1.59, 0.2552, -0.0797, 0.068, 0.7148]}
+color_pattern = "RGGB"
+crops = [0,32,8,0]
+
+[[cameras.modes]]
+mode = "12bit"
+blackpoint = 0
+whitepoint = 3880

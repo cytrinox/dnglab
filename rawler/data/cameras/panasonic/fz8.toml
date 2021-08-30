@@ -1,0 +1,12 @@
+make = "Panasonic"
+model = "DMC-FZ8"
+clean_make = "Panasonic"
+clean_model = "DMC-FZ8"
+blackpoint = 0
+whitepoint = 3986
+color_matrix = {D65 = [0.8986, -0.2755, -0.0802, -0.6341, 1.3575, 0.3077, -0.1476, 0.2144, 0.6379]}
+color_pattern = "RGGB"
+
+[[cameras.modes]]
+mode = "4:3"
+crops = [0,31,1,5]

@@ -1,0 +1,10 @@
+make = "Canon"
+model = "Canon EOS-1D Mark IV"
+clean_make = "Canon"
+clean_model = "EOS-1D Mark IV"
+blackpoint = 2048
+whitepoint = 15100
+color_matrix = {D65 = [0.6014, -0.022, -0.0795, -0.4109, 1.2014, 0.2361, -0.0561, 0.1824, 0.5787]}
+color_pattern = "GBRG"
+crops = [46,64,2,144]
+blackareav = [0, 140]

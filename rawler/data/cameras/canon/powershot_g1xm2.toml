@@ -1,0 +1,12 @@
+make = "Canon"
+model = "Canon PowerShot G1 X Mark II"
+clean_make = "Canon"
+clean_model = "PowerShot G1 X Mark II"
+blackpoint = 512
+whitepoint = 16000
+color_matrix = {D65 = [0.7378, -0.1255, -0.1043, -0.4088, 1.2251, 0.2048, -0.0876, 0.1946, 0.5805]}
+color_pattern = "RGGB"
+crops = [52,14,0,82]
+blackareav = [0, 68]
+blackareah = [0, 46]
+wb_offset = 71

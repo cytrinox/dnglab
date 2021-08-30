@@ -1,0 +1,10 @@
+make = "Hasselblad"
+model = "Hasselblad X1D"
+clean_make = "Hasselblad"
+clean_model = "X1D"
+blackpoint = 0
+whitepoint = 65535
+color_matrix = {D65 = [0.4932, -0.0835, 0.0141, -0.4878, 1.1868, 0.3437, -0.1138, 0.1961, 0.7067]}
+color_pattern = "RGGB"
+crops = [96,58,0,46]
+hints = ["uncompressed"]

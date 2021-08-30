@@ -1,0 +1,11 @@
+make = "Canon"
+model = "Canon EOS REBEL T3i"
+clean_make = "Canon"
+clean_model = "EOS Rebel T3i"
+blackpoint = 2048
+whitepoint = 13926
+color_matrix = {D65 = [0.6461, -0.0907, -0.0882, -0.43, 1.2184, 0.2378, -0.0819, 0.1944, 0.5931]}
+color_pattern = "GBRG"
+crops = [54,0,0,146]
+blackareav = [0, 140]
+blackareah = [4, 44]

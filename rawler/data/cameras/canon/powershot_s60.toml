@@ -1,0 +1,12 @@
+make = "Canon"
+model = "Canon PowerShot S60"
+clean_make = "Canon"
+clean_model = "PowerShot S60"
+blackpoint = 0
+whitepoint = 4095
+color_matrix = {D65 = [0.8795, -0.2482, -0.0797, -0.7804, 1.5403, 0.2573, -0.1422, 0.1996, 0.7082]}
+color_pattern = "RGGB"
+crops = [6,44,2,12]
+wb_offset = 48
+hints = ["wb_mangle"]
+blackareav = [2632,40]

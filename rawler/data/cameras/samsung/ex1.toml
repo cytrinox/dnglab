@@ -1,0 +1,9 @@
+make = "SAMSUNG"
+model = "EX1"
+clean_make = "Samsung"
+clean_model = "EX1"
+blackpoint = 0
+whitepoint = 15600
+color_matrix = {D65 = [0.8898, -0.2498, -0.0994, -0.3144, 1.1328, 0.2066, -0.076, 0.1381, 0.4576]}
+color_pattern = "RGGB"
+crops = [2,8,22,0]

@@ -1,0 +1,9 @@
+make = "SAMSUNG"
+model = "NX3000"
+clean_make = "Samsung"
+clean_model = "NX3000"
+blackpoint = 0
+whitepoint = 4095
+color_matrix = {D65 = [0.806, -0.2933, -0.0761, -0.4504, 1.289, 0.1762, -0.063, 0.1489, 0.5227]}
+color_pattern = "GRBG"
+crops = [42,32,24,96]

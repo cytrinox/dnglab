@@ -1,0 +1,24 @@
+make = "Panasonic"
+model = "DMC-GF1"
+clean_make = "Panasonic"
+clean_model = "DMC-GF1"
+blackpoint = 15
+whitepoint = 3986
+color_matrix = {D65 = [0.7888, -0.1902, -0.1011, -0.8106, 1.6085, 0.2099, -0.2353, 0.2866, 0.733]}
+color_pattern = "GBRG"
+
+[[cameras.modes]]
+mode = "1:1"
+crops = [0,44,0,0]
+
+[[cameras.modes]]
+mode = "4:3"
+crops = [0,44,0,0]
+
+[[cameras.modes]]
+mode = "3:2"
+crops = [0,44,0,0]
+
+[[cameras.modes]]
+mode = "16:9"
+crops = [0,44,0,0]

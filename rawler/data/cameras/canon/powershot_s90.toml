@@ -1,0 +1,10 @@
+make = "Canon"
+model = "Canon PowerShot S90"
+clean_make = "Canon"
+clean_model = "PowerShot S90"
+blackpoint = 128
+whitepoint = 4095
+color_matrix = {D65 = [1.2374, -0.5016, -0.1049, -0.1677, 0.9902, 0.2078, -0.0083, 0.0852, 0.4683]}
+color_pattern = "RGGB"
+crops = [18,54,10,10]
+wb_offset = 71

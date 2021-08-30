@@ -1,0 +1,9 @@
+make = "Phase One A/S"
+model = "P30"
+clean_make = "Phase One A/S"
+clean_model = "P30"
+blackpoint = 0
+whitepoint = 65535
+color_matrix = {D65 = [0.4516, -0.0245, -0.0037, -0.702, 1.4976, 0.2173, -0.3206, 0.4671, 0.7087]}
+color_pattern = "GRBG"
+crops = [22,20,28,40]

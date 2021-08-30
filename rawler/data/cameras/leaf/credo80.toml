@@ -1,0 +1,9 @@
+make = "Leaf"
+model = "Credo 80"
+clean_make = "Leaf"
+clean_model = "Credo 80"
+blackpoint = 0
+whitepoint = 16383
+color_matrix = {D65 = [0.6294, 0.0686, -0.0712, -0.5435, 1.3417, 0.2211, -0.1006, 0.2435, 0.5042]}
+color_pattern = "RGGB"
+crops = [8,16,48,36]

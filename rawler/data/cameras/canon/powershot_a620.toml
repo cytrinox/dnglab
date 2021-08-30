@@ -1,0 +1,13 @@
+make = "Canon"
+model = "PowerShot A620"
+clean_make = "Canon"
+clean_model = "PowerShot A620"
+blackpoint = 0
+whitepoint = 1023
+color_matrix = {D65 = [1.5265, -0.6193, -0.1558, -0.4125, 1.2116, 0.201, -0.0888, 0.1639, 0.522]}
+color_pattern = "RGGB"
+crops = [12,4,0,36]
+filesize = 9219600
+raw_width = 3152
+raw_height = 2340
+blackareav = [0,30]

@@ -1,0 +1,13 @@
+make = "Canon"
+model = "PowerShot A720 IS"
+clean_make = "Canon"
+clean_model = "PowerShot A720 IS"
+blackpoint = 0
+whitepoint = 1023
+color_matrix = {D65 = [1.4573, -0.5482, -0.1546, -0.1266, 0.9799, 0.1468, -0.104, 0.1912, 0.381]}
+color_pattern = "GBRG"
+crops = [5,32,3,6]
+filesize = 10341600
+raw_width = 3336
+raw_height = 2480
+blackareav = [3306,30]

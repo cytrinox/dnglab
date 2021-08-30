@@ -1,0 +1,10 @@
+make = "Canon"
+model = "Canon PowerShot G10"
+clean_make = "Canon"
+clean_model = "PowerShot G10"
+blackpoint = 128
+whitepoint = 4095
+color_matrix = {D65 = [1.1093, -0.3906, -0.1028, -0.5047, 1.2492, 0.2879, -0.1003, 0.175, 0.5561]}
+color_pattern = "GBRG"
+crops = [13,36,12,12]
+wb_offset = 71

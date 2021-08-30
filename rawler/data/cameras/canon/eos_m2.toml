@@ -1,0 +1,11 @@
+make = "Canon"
+model = "Canon EOS M2"
+clean_make = "Canon"
+clean_model = "EOS M2"
+blackpoint = 2047
+whitepoint = 12277
+color_matrix = {D65 = [0.64, -0.048, -0.0888, -0.5294, 1.3416, 0.2047, -0.1296, 0.2203, 0.6137]}
+color_pattern = "RGGB"
+crops = [52,0,0,72]
+blackareav = [0, 70]
+blackareah = [4, 44]

@@ -1,0 +1,10 @@
+make = "Canon"
+model = "Canon EOS Rebel T6"
+clean_make = "Canon"
+clean_model = "Canon EOS Rebel T6"
+blackpoint = 2046
+whitepoint = 12279
+color_matrix = {D65 = [0.6939, -0.1016, -0.0866, -0.4428, 1.2473, 0.2177, -0.1175, 0.2178, 0.6162]}
+color_pattern = "GRBG"
+crops = [50,0,0,142]
+blackareav = [0,140]

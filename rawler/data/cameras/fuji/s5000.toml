@@ -1,0 +1,10 @@
+make = "FUJIFILM"
+model = "FinePix S5000"
+clean_make = "Fujifilm"
+clean_model = "FinePix S5000"
+blackpoint = 0
+whitepoint = 15866
+color_matrix = {D65 = [0.8754, -0.2732, -0.1019, -0.7204, 1.5069, 0.2276, -0.1702, 0.2334, 0.6982]}
+color_pattern = "GBRG"
+crops = [4,24,4,24]
+hints = ["fuji_rotation"]

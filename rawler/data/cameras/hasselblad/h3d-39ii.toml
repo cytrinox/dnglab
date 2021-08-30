@@ -1,0 +1,9 @@
+make = "Hasselblad"
+model = "Hasselblad H3D"
+clean_make = "Hasselblad"
+clean_model = "H3D"
+blackpoint = 0
+whitepoint = 31456
+color_matrix = {D65 = [0.3857, 0.0452, -0.0046, -0.6008, 1.4477, 0.1596, -0.2627, 0.4481, 0.5718]}
+color_pattern = "RGGB"
+crops = [0,0,0,0]

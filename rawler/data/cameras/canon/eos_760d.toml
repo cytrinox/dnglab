@@ -1,0 +1,16 @@
+make = "Canon"
+model = "Canon EOS 760D"
+clean_make = "Canon"
+clean_model = "EOS 760D"
+
+model_aliases = [
+  ["Canon EOS DIGITAL REBEL T6s", "Rebel T6s"],
+  ["Canon EOS REBEL T6s", "Rebel T6s"],
+  ["Canon EOS 8000D", "EOS 8000D"],
+]
+
+blackpoint = 2047
+whitepoint = 11765
+color_matrix = {D65 = [0.6362, -0.0823, -0.0847, -0.4426, 1.2109, 0.2616, -0.0743, 0.1857, 0.5635]}
+color_pattern = "RGGB"
+crops = [34,0,0,72]

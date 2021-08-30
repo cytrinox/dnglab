@@ -1,0 +1,11 @@
+make = "Canon"
+model = "Canon EOS-1D X"
+clean_make = "Canon"
+clean_model = "EOS-1D X"
+blackpoint = 0
+whitepoint = 13000
+color_matrix = {D65 = [0.6847, -0.0614, -0.1014, -0.4669, 1.2737, 0.2139, -0.1197, 0.2488, 0.6846]}
+color_pattern = "RGGB"
+crops = [102,0,2,128]
+blackareav = [0, 120]
+blackareah = [0, 98]

@@ -1,0 +1,9 @@
+make = "FUJIFILM"
+model = "FinePix HS50EXR"
+clean_make = "Fujifilm"
+clean_model = "FinePix HS50EXR"
+blackpoint = 256
+whitepoint = 3900
+color_matrix = {D65 = [1.2085, -0.4727, -0.0953, -0.3257, 1.1489, 0.2002, -0.0511, 0.2046, 0.4592]}
+color_pattern = "BGGR"
+crops = [0,64,0,0]

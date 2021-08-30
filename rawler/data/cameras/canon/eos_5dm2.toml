@@ -1,0 +1,11 @@
+make = "Canon"
+model = "Canon EOS 5D Mark II"
+clean_make = "Canon"
+clean_model = "EOS 5D Mark II"
+blackpoint = 1020
+whitepoint = 15600
+color_matrix = {D65 = [0.4716, 0.0603, -0.083, -0.7798, 1.5474, 0.248, -0.1496, 0.1937, 0.6651]}
+color_pattern = "GBRG"
+crops = [51,0,0,158]
+blackareav = [0, 156]
+blackareah = [2, 48]

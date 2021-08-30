@@ -1,0 +1,11 @@
+make = "Canon"
+model = "Canon EOS-1Ds Mark II"
+clean_make = "Canon"
+clean_model = "EOS-1Ds Mark II"
+blackpoint = 0
+whitepoint = 4060
+color_matrix = {D65 = [0.6517, -0.0602, -0.0867, -0.818, 1.5926, 0.2378, -0.1618, 0.1771, 0.7633]}
+color_pattern = "GBRG"
+crops = [13,0,0,98]
+blackareav = [0, 96]
+wb_offset = 34

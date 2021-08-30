@@ -1,0 +1,18 @@
+make = "Canon"
+model = "Canon EOS 1100D"
+clean_make = "Canon"
+clean_model = "EOS 1100D"
+
+model_aliases = [
+  ["Canon EOS DIGITAL REBEL T3", "Rebel T3"],
+  ["Canon EOS REBEL T3", "Rebel T3"],
+  ["Canon EOS Kiss Digital X50", "Kiss X50"],
+  ["Canon EOS Kiss X50", "Kiss X50"],
+]
+
+blackpoint = 2046
+whitepoint = 15000
+color_matrix = {D65 = [0.6444, -0.0904, -0.0893, -0.4563, 1.2308, 0.2535, -0.0903, 0.2016, 0.6728]}
+color_pattern = "RGGB"
+crops = [20,0,0,64]
+blackareav = [0, 58]

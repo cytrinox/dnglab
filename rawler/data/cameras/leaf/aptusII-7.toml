@@ -1,0 +1,9 @@
+make = "Leaf"
+model = "Leaf AFi-II 7"
+clean_make = "Leaf"
+clean_model = "AFi-II 7"
+blackpoint = 0
+whitepoint = 15000
+color_matrix = {D65 = [0.7691, -0.0108, -0.0339, -0.6185, 1.3627, 0.2833, -0.2046, 0.3899, 0.5952]}
+color_pattern = "RGGB"
+crops = [0,0,0,0]

@@ -1,0 +1,9 @@
+make = "Hasselblad"
+model = "Hasselblad CFV-50"
+clean_make = "Hasselblad"
+clean_model = "CFV-50"
+blackpoint = 0
+whitepoint = 65535
+color_matrix = {D65 = [0.5656, -0.0659, -0.0346, -0.3923, 1.2306, 0.1791, -0.1602, 0.3509, 0.5442]}
+color_pattern = "RGGB"
+crops = [4,40,80,42]

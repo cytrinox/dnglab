@@ -1,0 +1,11 @@
+make = "Canon"
+model = "Canon EOS 20D"
+clean_make = "Canon"
+clean_model = "EOS 20D"
+blackpoint = 0
+whitepoint = 4095
+color_matrix = {D65 = [0.6599, -0.0537, -0.0891, -0.8071, 1.5783, 0.2424, -0.1983, 0.2234, 0.7462]}
+color_pattern = "RGGB"
+crops = [12,0,0,74]
+blackareav = [0, 72]
+wb_offset = 25

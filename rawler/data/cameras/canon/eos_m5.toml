@@ -1,0 +1,12 @@
+make = "Canon"
+model = "Canon EOS M5"
+clean_make = "Canon"
+clean_model = "Canon EOS M5"
+blackpoint = 512
+whitepoint = 16000
+color_matrix = {D65 = [0.8532, -0.0701, -0.1167, -0.4095, 1.1879, 0.2508, -0.0797, 0.2424, 0.701]}
+color_pattern = "RGGB"
+crops = [36,0,0,264]
+blackareav = [0,260]
+blackareah = [0,30]
+wb_offset = 71

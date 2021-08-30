@@ -1,0 +1,11 @@
+make = "Canon"
+model = "Canon EOS D30"
+clean_make = "Canon"
+clean_model = "EOS D30"
+blackpoint = 126
+whitepoint = 4095
+color_matrix = {D65 = [0.9805, -0.2689, -0.1312, -0.5803, 1.3064, 0.3068, -0.2438, 0.3075, 0.8775]}
+color_pattern = "RGGB"
+crops = [6,0,2,48]
+blackareav = [0,46]
+hints = ["nocinfo2"]

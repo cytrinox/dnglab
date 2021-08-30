@@ -1,0 +1,9 @@
+make = "OLYMPUS IMAGING CORP."
+model = "E-330"
+clean_make = "Olympus"
+clean_model = "E-330"
+blackpoint = 70
+whitepoint = 4095
+color_matrix = {D65 = [0.8961, -0.2473, -0.1084, -0.7979, 1.599, 0.2067, -0.2319, 0.3035, 0.8249]}
+color_pattern = "RGGB"
+crops = [0,30,0,0]

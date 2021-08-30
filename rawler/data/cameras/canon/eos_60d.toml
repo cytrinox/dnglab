@@ -1,0 +1,11 @@
+make = "Canon"
+model = "Canon EOS 60D"
+clean_make = "Canon"
+clean_model = "EOS 60D"
+blackpoint = 2048
+whitepoint = 15000
+color_matrix = {D65 = [0.6719, -0.0994, -0.0925, -0.4408, 1.2426, 0.2211, -0.0887, 0.2129, 0.6051]}
+color_pattern = "GBRG"
+crops = [54,0,0,146]
+blackareav = [0, 140]
+blackareah = [4, 46]

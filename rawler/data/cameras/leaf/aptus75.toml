@@ -1,0 +1,9 @@
+make = "Leaf"
+model = "Leaf Aptus 75"
+clean_make = "Leaf"
+clean_model = "Aptus 75"
+blackpoint = 0
+whitepoint = 16191
+color_matrix = {D65 = [0.7914, 0.1414, -0.119, -0.8777, 1.6582, 0.228, -0.2811, 0.4605, 0.5562]}
+color_pattern = "GBRG"
+crops = [0,0,0,0]
