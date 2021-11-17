@@ -77,6 +77,7 @@ impl WaveletTransform {
   }
 
   pub(super) fn getline(&mut self) -> &Vec<i32> {
+    println!("flt_tap_h: {}, cur_h: {}", self.flt_tap_h , self.cur_h);
     let result = &self.line_buf[(self.flt_tap_h as i32 - self.cur_h as i32 + 5) as usize % 5 + 3];
     assert!(self.cur_h > 0);
     self.cur_h -= 1;
@@ -178,6 +179,7 @@ impl CodecParams {
         wvlt.band1_pos += 1;
         wvlt.band3_pos += 1;
       } else {
+        // Initialize in-place deltas?
         wvlt.line_buf[la][0] = wvlt.band0(0) - ((wvlt.band1(0) + 1) >> 1);
         wvlt.line_buf[lb][0] = wvlt.band2(0) - ((wvlt.band3(0) + 1) >> 1);
       }
@@ -445,7 +447,7 @@ impl CodecParams {
           wvlt.cur_h += 3;
           wvlt.cur_line += 3;
           wvlt.flt_tap_h = (wvlt.flt_tap_h + 3) % 5;
-        } else {
+        } else { // if iwt_transforms[level].height & 1 == 1
           let wvlt = &mut iwt_transforms[level];
           let l2 = 2;
           let h0 = wvlt.flt_tap_h + 3;
@@ -503,13 +505,33 @@ impl CodecParams {
         }
         wvlt.band0_pos += 1;
         wvlt.band2_pos += 1;
+
+
+        // forward: vertical, then horizontal
+        // inverse: horizontal, then vertical
+
+        // |LL|LH| => LL+LH = | L | = l0
+        // |HL|HH| => HL+HH = | H | = l1
+
         for _i in (0..(wvlt.width - 3)).step_by(2) {
-          let delta = wvlt.band0(0) - ((wvlt.band1(0) + wvlt.band1(1) + 2) >> 2);
+          // synthesis LH -> LL into L ???
+          // delta = LL[0] - ((LH[0] + LH[1]) / 4)
+          let delta = wvlt.band0(0) - ((wvlt.band1(0) + wvlt.band1(1) + 2) >> 2); // band0 = even-LF, band1 = odd-HF
+          // L0[n+1] = LH[0] + /(delta + L0[n]) / 2)
           wvlt.line_buf[l0][l0_pos + 1] = wvlt.band1(0) + ((delta + wvlt.line_buf[l0][l0_pos + 0]) >> 1);
+          // L0[n+2] = delta;
           wvlt.line_buf[l0][l0_pos + 2] = delta;
+
+          // synthesis HH -> HL into H ???
+          // delta = HL[0] - ((HH[0] + HH[1]) / 4)
           let delta = wvlt.band2(0) - ((wvlt.band3(0) + wvlt.band3(1) + 2) >> 2);
+          // L1[n+1] = HL[0] + ((delta + L1[n]) / 2)
           wvlt.line_buf[l1][l1_pos + 1] = wvlt.band3(0) + ((delta + wvlt.line_buf[l1][l1_pos + 0]) >> 1);
           wvlt.line_buf[l1][l1_pos + 2] = delta;
+
+          // L0 => L band?
+          // L1 => H band?
+
           wvlt.advance_bufs(1);
           l0_pos += 2;
           l1_pos += 2;
@@ -544,13 +566,24 @@ impl CodecParams {
       let wvlt = &mut iwt_transforms[level];
 
       wvlt.line_buf.swap(1, 2);
+      // L1=L2, L2=L1, L1 points now to previous iteration data
 
       let l0 = 0;
       let l1 = 1;
       let l2 = 2;
       for i in 0..wvlt.width {
-        let delta = wvlt.line_buf[l0][i] - ((wvlt.line_buf[l2][i] + wvlt.line_buf[l1][i] + 2) >> 2);
+        // vertical synthesis??? L + H => final image line?
+        // Why do we need 4 buffers (L0, L2, L1, H0) at this stage and whats the content?
+        // I assume:
+        // l0 = low-freq
+        // l2 = hi-freq
+        // l1 = hi-freq
+        // h0 = ???
+        // delta = L0[n] - ((L2[n] + L1[n]) / 4)
+        let delta = wvlt.line_buf[l0][i] - ((wvlt.line_buf[l1][i] + wvlt.line_buf[l2][i] + 2) >> 2);
+        // H1[n] = L1[n] + ((delta + H0[n]) / 2)
         wvlt.line_buf[h1][i] = wvlt.line_buf[l1][i] + ((delta + wvlt.line_buf[h0][i]) >> 1);
+        // H2[n] = delta
         wvlt.line_buf[h2][i] = delta;
       }
 
