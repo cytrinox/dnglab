@@ -334,7 +334,7 @@ pub trait Decoder: Send {
   }
 
   fn thumbnail_image(&self, _file: &RawSource, _params: &RawDecodeParams) -> Result<Option<DynamicImage>> {
-    warn!("Decoder has no thumbnail image support");
+    info!("Decoder has no thumbnail image support");
     Ok(None)
   }
 
@@ -345,7 +345,7 @@ pub trait Decoder: Send {
   }
 
   fn preview_image(&self, _file: &RawSource, _params: &RawDecodeParams) -> Result<Option<DynamicImage>> {
-    warn!("Decoder has no preview image support");
+    info!("Decoder has no preview image support");
     Ok(None)
   }
 
